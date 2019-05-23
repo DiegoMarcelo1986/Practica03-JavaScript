@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;
+ padding: 0;
+}
+.contenedor{
+	position:relative;
+	top: 125px;
+	text-align: center;
+}
+.text{
+	display: block;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 50px;
+	font-family: Arial,Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: white;
+	border: 0px;
+	background: #434443;
+	width: 425.8px;
+	height: 100px;
+	border-radius: 20px;
+}
+.fila1{
+	font-size: 20px;
+	font-family: Arial,Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: white;
+	border: 0px;
+	background: #434443;
+	width: 80px;
+	height: 80px;
+	border-radius: 1em;
+	border-top: 100px;
+}
+.fila2{
+	font-size: 20px;
+	font-family: Arial,Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: white;
+	border: 0px;
+	background: #434443;
+	width: 80px;
+	height: 80px;
+	border-radius: 1em;
+}
+.fila3{
+	font-size: 20px;
+	font-family: Arial,Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: white;
+	border: 0px;
+	background: #434443;
+	width: 80px;
+	height: 80px;
+	border-radius: 1em;
+}
+.fila4{
+	font-size: 20px;
+	font-family: Arial,Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: white;
+	border: 0px;
+	background: #434443;
+	width: 80px;
+	height: 80px;
+	border-radius: 1em;
+}
+#formularioCalculadora{
+	background: #2706A5;
+	width: 430px;
+	height: 500px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 20px;
+	display: block;
+	
+}
+.fila1:hover{
+	background: #F7F508;
+	cursor:pointer;
+}
+.fila2:hover{
+	background: #F7F508;
+	cursor:pointer;
+}
+.fila3:hover{
+	background: #F7F508;
+	cursor:pointer
+}
+.fila4:hover{
+	background: #F7F508;
+	cursor:pointer
+}
+.fila5:hover{
+	background: #F7F508;
+	cursor:pointer
+}

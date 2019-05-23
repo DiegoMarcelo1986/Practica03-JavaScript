@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head >
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link rel="stylesheet" type="text/css" href="estilos.css" >
+<script src="fuciones.js"></script>
+</head>
+
+<body>
+<div class="contenedor">
+	<form id="formularioCalculadora">
+		<table id="calculadora">
+			<tr>
+				<td colspan="5"><input class="text" type="text" id="resultado" name="display" value=""></td>
+			</tr>
+			<tr>
+				<td><input class="fila1" id="siete" type="button" value="7" onClick="enviar(7)" ></td>
+				<td><input class="fila1" id="ocho" type="button" value="8" onClick="enviar(8)"></td>
+				<td><input class="fila1" id="nueve" type="button" value="9" onClick="enviar(9)"></td>
+				<td><input class="fila1" id="del" type="button" value="DEL" onClick="borrarR()" ></td>
+				<td><input class="fila1" id="ac" type="button" value="AC" onClick="resetear()"></td>
+			</tr>
+			<tr>
+				<td><input class="fila2" id="cuatro" type="button" value="4" onClick="enviar(4)"></td>
+				<td><input class="fila2" id="cinco" type="button" value="5" onClick="enviar(5)"></td>
+				<td><input class="fila2" id="seis" type="button" value="6" onClick="enviar(6)" ></td>
+				<td><input class="fila2" id="multiplicacion" type="button" value="*" onClick="multi()" ></td>
+				<td><input class="fila2" id="division" type="button" value="/" onClick="divi()"></td>
+			</tr>
+			<tr>
+				<td><input class="fila3" id="uno" type="button"  value="1" onClick="enviar(1)"></td>
+				<td><input class="fila3" id="dos" type="button" value="2" onClick="enviar(2)" ></td>
+				<td><input class="fila3" id="tres" type="button" value="3" onClick="enviar(3)"></td>
+				<td><input class="fila3" id="mas" type="button" value="+" onClick="suma()"></td>
+				<td><input class="fila3" id="menos" type="button" value="-" onClick="resta()"></td>
+			</tr>
+			<tr>
+				<td><input class="fila4" id="cero" type="button" value="0" onClick="enviar(0)"></td>
+				<td><input class="fila4" id="punto" type="button" value="." onClick="darPunto()"></td>
+				<td><input class="fila4" id="exp" type="button" value="^" onClick="exponente()"></td>
+				<td><input class="fila4" id="mod" type="button" value="%" onClick="modulo()"></td>
+				<td><input class="fila4" id="igual" type="button" value="=" onClick="valigual()"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>

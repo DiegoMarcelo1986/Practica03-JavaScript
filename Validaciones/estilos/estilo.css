@@ -1,0 +1,144 @@
+@font-face{
+    font-family:principal;
+    src:URL(fonts/lato/Lato-Regular.ttf);
+}
+
+html{
+
+background-position:center;
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:fixed;
+
+}
+#formularioRegistro{
+
+    width:450px;
+    background-color:#2E8BD4;
+    padding:35px 45px 35px 50px;
+    margin:auto;
+    margin-top:65px;
+    border-radius:9px
+}
+.input{
+    color:#F0DA21;
+    font-family:pricipal;
+    font-size:18px;
+    line-height:22px;
+    background-color:y;
+    padding:13x 13px 13px 54px; 
+    margin-bottom:10px;
+    width:100%;
+    box-sizing:border-box;   
+
+}
+
+.input:focus{
+
+    background-color:gray;
+    border: 3px solid #1656C5;
+    color:white;
+    padding: 13px 13px 13px 54px;
+
+}
+
+
+#cedula{
+
+    
+    background-size: 30px 30px;
+    background-position: 11px 11px;
+    background-repeat: no-repeat;
+
+}
+#nombre{
+
+    
+    background-size: 30px 30px;
+    background-position: 11px 11px;
+    background-repeat: no-repeat;
+
+}
+#apellido{
+
+    
+    background-size: 30px 30px;
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+
+}
+#direccion{
+
+    
+    background-size: 30px 30px;
+    background-position: 11px 11px;
+    background-repeat: no-repeat;
+
+}
+
+#telefono{
+
+    
+    background-size: 30px 30px;
+    background-position: 11px 11px;
+    background-repeat: no-repeat;
+
+}
+#fechana{
+
+    
+    background-size: 30px 30px;
+    background-position: 11px 11px;
+    background-repeat: no-repeat;
+
+}
+#correo{
+
+    
+    background-size: 30px 30px;
+    background-position: 11px 11px;
+    background-repeat: no-repeat;
+
+}
+#enviar{
+
+    font-family:principal;
+    float: left;
+    width: 100%;
+    border:black solid 4px;
+    cursor: progress;
+    background-color: skyblue;
+    font-size: 15px;
+    font-weight: 670px;
+    padding-top: 22px;
+    -webkit-transition: all o.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3;
+}
+
+#enviar:hover{
+    color:#000;
+    background-color: rgba(0,0,0,0);
+}
+
+.transicion{
+
+    width: 0px;
+    height: 74px;
+    background-color: #3498db;
+    transition: .7s ease;
+    -webkit-transition: all o.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: .7s ease;
+    -ms-transition: .7s ease;
+
+}
+
+.enviar:hover .transicion{
+
+    width: 100%;
+    background-color: #33de80;
+
+}
